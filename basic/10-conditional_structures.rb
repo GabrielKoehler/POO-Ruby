@@ -31,5 +31,3 @@ case value
   else
     puts "Out of range"
 end
-
-
