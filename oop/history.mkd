@@ -1,0 +1,51 @@
+  # Paradigma de Orientação a Objetos
+  
+  A primeira linguagem orientada a objetos foi a Smalltalk, e o paradigma foi implementado na Noruega, com a seguinte analogia.
+
+  Como seria um sistema de sofware que funcionasse como um ser vivo?
+  **Alan Kay - Analogia Biológica.**
+  
+  Dessa forma a teoria tem com base a célula, uma célula se comunicaria com outras através do envio de mensagens, para realizar um objetivo em comum e cada célula se comportaria com uma unidade autônoma.
+  
+  Então, a ideia de Allan Kay foi criar um sistema de software composto de agentes autônomos que interagem entre si e através dessa analogiam, Kay definiu os **fundamentos a orientação a objetos**:
+  - Qualquer coisa é um objeto;
+  - Objetos realizam tarefas através da requisição de serviços a outros objetos;
+  - Cada objeto pertence a uma determinada classe e uma classe agrupa objetos similares;
+  - A classe é um repositório para comportamento associado ao objeto;
+  - Classes são organizadas em hierarquias.
+
+  # Pilares da Orientação a Objetos
+  Os pilares formam a base da orientação a objetos, e são eles:
+  - Abstração;
+  - Encapsulamento;
+  - Herança;
+  - Polimorfismo.
+
+  **Abstração**:
+  Imaginar o objeto, assim como sua identidade única, atributos, métodos e etc.
+
+  ##### Exemplo: 
+    Identidade única: Furgão.
+    Atributos: Potência, Portas, Cor e Consumo.
+    Métodos: Acelerar, Frear, Estacionar e Abastecer.
+  <br>
+
+  **Encapsulamento:**
+  Proteger as propriedades dos objetos com objetivo de o tornar mais seguro.
+
+  ##### Exemplo:
+    Para interagir com as luzes do Furgão, é disponibilizado um botão (método de interação).
+  <br>
+
+  **Herança:**
+  Permite a reutilização do código.
+
+  ##### Exemplo:
+    Para interagir com as luzes do Sedan, é disponibilizado um botão (método de interação reutilizado da classe Carros).
+  <br>
+
+  **Polimorfismo:**
+  É a capacidade de referenciar um objeto de várias formas diferentes.
+
+  ##### Exemplo:
+    Um carro de duas portas, podemos referenciar um Coupé, Hatch ou um Conversível.
