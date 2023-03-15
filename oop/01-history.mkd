@@ -1,0 +1,101 @@
+  # Paradigma de Orientação a Objetos
+  
+  A primeira linguagem orientada a objetos foi a Smalltalk, e o paradigma foi implementado na Noruega, com a seguinte analogia.
+
+  Como seria um sistema de sofware que funcionasse como um ser vivo?
+  **Alan Kay - Analogia Biológica.**
+  
+  Dessa forma a teoria tem com base a célula, uma célula se comunicaria com outras através do envio de mensagens, para realizar um objetivo em comum e cada célula se comportaria com uma unidade autônoma.
+  
+  Então, a ideia de Allan Kay foi criar um sistema de software composto de agentes autônomos que interagem entre si e através dessa analogiam, Kay definiu os **fundamentos a orientação a objetos**:
+  - Qualquer coisa é um objeto;
+  - Objetos realizam tarefas através da requisição de serviços a outros objetos;
+  - Cada objeto pertence a uma determinada classe e uma classe agrupa objetos similares;
+  - A classe é um repositório para comportamento associado ao objeto;
+  - Classes são organizadas em hierarquias.
+
+  # Pilares da Orientação a Objetos
+  Os pilares formam a base da orientação a objetos, e são eles:
+  - Abstração;
+  - Encapsulamento;
+  - Herança;
+  - Polimorfismo.
+
+  **Abstração**:
+  Imaginar o objeto, assim como sua identidade única, atributos, métodos e etc.
+
+  ##### Exemplo: 
+    Identidade única: Furgão.
+    Atributos: Potência, Portas, Cor e Consumo.
+    Métodos: Acelerar, Frear, Estacionar e Abastecer.
+  <br>
+
+  **Encapsulamento:**
+  Proteger as propriedades dos objetos com objetivo de o tornar mais seguro.
+
+  ##### Exemplo:
+    Para interagir com as luzes do Furgão, é disponibilizado um botão (método de interação).
+  <br>
+
+  **Herança:**
+  Permite a reutilização do código.
+
+  ##### Exemplo:
+    Para interagir com as luzes do Sedan, é disponibilizado um botão (método de interação reutilizado da classe Carros).
+  <br>
+
+  **Polimorfismo:**
+  É a capacidade de referenciar um objeto de várias formas diferentes.
+
+  ##### Exemplo:
+    Um carro de duas portas, podemos referenciar um Coupé, Hatch ou um Conversível.
+  <br>
+
+  ### Classes
+
+  Uma classe representa um conjunto de objetos com características e afins e também define o comportamento dos objetos através de seus métodos, e quais estados ele é capaz de manter através de seus atributos.
+
+  Especificação de classes para entidades físicas, conceituais ou de software. 
+  ##### Por exemplo:
+
+  - **Entidade física**: caminhão, carro e bicicleta.
+  - **Entidade conceitual**: processo químico, matrícula.
+  - **Entidade de software**: lista encadeada, arquivo.
+
+  Para representação gráfica de uma classe, é possível utilizar a notação UML:
+
+  <img 
+    src="./images/uml.png" 
+    alt="UML Diagram" 
+    style="height: 30%; width:50%; margin-left: 25%;"
+  />
+
+  - Os operadores (+ e -) representam a visibildade.
+  - Os valores a direita no atributo da classe é o tipo e valor inicial.
+  - Os valores dentro dos parênteses dos métodos da classe, são os parâmetros.
+
+  #### Encapsulamento
+  Tem como objetivo esconder/proteger os atributos dentro do objeto, produzindo duas visões distintas do objeto:
+  - **Interna**: Como o objeto faz.
+  - **Externa**: O que o objeto faz.
+  
+  Obtido através da visibilidade, que é conhecida como "modificadores de acesso".
+  ##### Sendo eles:
+
+  - **Público**/*Public*: representado pelo sinal de mais **(+)** na **notação UML**, onde elementos **públicos**, podem ser acessados a partir de qualquer outra classe.
+  - **Privado**/*Private*: representado pelo sinal de menos **(-)** na **notação UML**, onde elementros **privados** só podem ser acessados pela própria classe.
+  - **Protegido**/*Protected*: representado pelo sinal de sustenido **(#)** na **notação UML**, onde elementos **protegidos** só podem ser acessados pela própria classe e por suas descendentes.
+
+  ### Classes
+  Objetos são instâncias de uma classe, e armazenam estados através de seus atributos, assim como podem interagir com outros objetos utilzando seus métodos.
+  Todo objeto pertence a uma classe, e possui seus atributos próprios, onde são mutáveis e podem receber diferentes valores de acordo com as características do objeto.
+
+  As instâncias são os objetos, como o nome diz, instanciados, compartilhando o mesmo tipo de atributos e os mesmos métodos, porém com valores diferentes em seus atributos e parâmetros de métodos
+
+  
+
+  <img 
+    src="./images/instances.png" 
+    alt="Instances example" 
+    style="height: 30%; width:50%; margin-left: 25%;"
+  />
